@@ -1,0 +1,76 @@
+* { padding: 0 ;
+    margin: 0 ;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.navbar {
+    display : flex ;
+    flex-wrap: wrap ;
+    background-color: #0984e3 ;
+    border-bottom: 1px solid #0984e3;
+    padding:  10px 10px;
+    height : 43px ;
+    font-size: 20px;
+    color : #fff ;
+}
+.navbar_user {
+    display : flex ;
+    flex-wrap: wrap ;
+    margin-right: 10px ;
+    margin-left: 10px ;
+}
+.navbar_user .navbar_image img{
+    width: 25px ;
+    height: 25px ;
+    border-radius: 50%;
+    padding-bottom:  2px;
+}
+.navbar_user .navbar_nom{
+    color: #fff ;
+    margin-left: 8px ;
+}
+.navbar_user .navbar_nom h1{
+    margin-top : 7px ;
+    font-size: 12px ;
+}
+.navbar_list {
+    display : flex ;
+    flex-wrap: wrap ;
+    font-size: 20px;
+    margin-right: 48% ;
+}
+.navbar_element {
+    margin-right: 10px ;
+    margin-left: 10px ;
+}
+.navbar_element  h1{
+    text-decoration: none;
+    color: #fff ;
+    margin-top : 6px ;
+    font-size: 12px ;
+}
+
+.navbar_border {
+    border-right: 1px solid rgba(0, 0, 0, .1) ;
+    height: 18px;
+    margin-top: 5px;
+}
+@media screen and (max-width:960px) {
+    .navbar_list {
+        margin-right: 40% ;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .navbar_list {
+        margin-right: 35% ;
+    }
+
+}
+
+@media screen and (max-width:560px) {
+    .navbar_list {
+        margin-right: 0px ;
+    }
+
+}
