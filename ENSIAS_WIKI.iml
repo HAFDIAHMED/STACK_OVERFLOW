@@ -9,7 +9,7 @@
         <webroots>  
           <root url="file://$MODULE_DIR$/web" relative="/" />
         </webroots>
-      </configuration>
+      </configuration> 
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
